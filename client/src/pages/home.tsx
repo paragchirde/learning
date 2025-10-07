@@ -20,6 +20,9 @@ export default function Home() {
             <Button variant="outline" size="lg" asChild>
               <Link href="/code-example">Documentation</Link>
             </Button>
+            <Button variant="secondary" size="lg" asChild>
+              <Link href="/polling-demo">Polling Demo</Link>
+            </Button>
           </div>
         </div>
       </div>
