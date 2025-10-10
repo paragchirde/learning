@@ -14,12 +14,20 @@ export default function MainNav() {
           isHomeActive ? "text-primary" : ""
         }`}
       >
-        Dashboard
+        Home
+      </Link>
+      <Link
+        href="/polling-demo"
+        className={`text-sm font-medium transition-colors hover:text-primary ${
+          isComponentsActive ? "text-primary" : ""
+        }`}
+      >
+        Polling Demo
       </Link>
       <Link
         href="/components"
         className={`text-sm font-medium transition-colors hover:text-primary ${
-          isComponentsActive ? "text-primary" : ""
+          isDocsActive ? "text-primary" : ""
         }`}
       >
         Components
@@ -27,18 +35,10 @@ export default function MainNav() {
       <Link
         href="/code-example"
         className={`text-sm font-medium transition-colors hover:text-primary ${
-          isDocsActive ? "text-primary" : ""
-        }`}
-      >
-        Documentation
-      </Link>
-      <Link
-        href="/settings"
-        className={`text-sm font-medium transition-colors hover:text-primary ${
           isSettingsActive ? "text-primary" : ""
         }`}
       >
-        Settings
+        Code Examples
       </Link>
     </nav>
   );

@@ -15,7 +15,7 @@ export default function SiteHeader() {
         <div className="flex gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-2">
             <span className="h-6 w-6 rounded-full bg-primary"></span>
-            <span className="font-bold text-xl">shadcn</span>
+            <span className="font-bold text-xl">LearningSpaces</span>
           </Link>
           <MainNav />
         </div>
