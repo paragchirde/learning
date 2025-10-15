@@ -1,6 +1,23 @@
-# Understanding Polling in Web Applications
+# LearningSpaces
 
-## What is Polling?
+Welcome to LearningSpaces - A hands-on learning platform for modern web development concepts and practices.
+
+## 📚 Concepts Covered
+
+### 1. [Polling](https://github.com/paragchirde/learning/tree/polling)
+Learn about polling in web applications through practical examples. Our implementation demonstrates:
+- Client-side polling with React
+- Server-side API endpoints
+- Real-time data updates
+- Best practices and use cases
+
+## 📖 Detailed Reference Documentation
+For comprehensive explanations and in-depth technical details, refer to our detailed documentation:
+[LearningSpaces Detailed Documentation](https://docs.google.com/document/d/1ffnRKAMab4oXQnkyrjeGNZR4XlzSTLSaCkBHxEPv87Q/edit?usp=sharing)
+
+## Understanding Polling in Web Applications
+
+### What is Polling?
 Polling is a technique where a client (like your web browser) repeatedly asks a server for updates at regular intervals. Think of it like checking your mailbox every few minutes to see if new mail has arrived - you're "polling" your mailbox.
 
 ## Simple Example in Our Demo
