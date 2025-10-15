@@ -9,6 +9,7 @@ import Footer from "@/components/footer";
 import Home from "@/pages/home";
 import ComponentsShowcase from "@/pages/components-showcase";
 import CodeExample from "@/pages/code-example";
+import ServerSentEventsDemo from "@/pages/sse-demo";
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/components" component={ComponentsShowcase} />
       <Route path="/code-example" component={CodeExample} />
+      <Route path="/sse-demo" component={ServerSentEventsDemo} />
       <Route component={NotFound} />
     </Switch>
   );
