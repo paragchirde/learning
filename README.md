@@ -12,6 +12,13 @@ Welcome to the Learning Repository! This repository serves as a collection of we
    - Example includes random number generator and timestamp updates
    - Branch: `polling`
 
+2. **[Server-Sent Events (SSE)](https://github.com/paragchirde/learning/tree/server-side-events)**
+   - Real-time server-to-client communication
+   - One-way streaming of data from server to client
+   - Example includes live counter and random number updates
+   - Built-in reconnection handling
+   - Branch: `server-side-events`
+
 ## How to Use This Repository
 
 1. Choose a concept from the catalog above
