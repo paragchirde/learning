@@ -20,6 +20,9 @@ export default function Home() {
             <Button variant="outline" size="lg" asChild>
               <Link href="/code-example">Documentation</Link>
             </Button>
+            <Button variant="secondary" size="lg" asChild>
+              <Link href="/sse-demo">Server-Sent Events Demo</Link>
+            </Button>
           </div>
         </div>
       </div>
@@ -71,7 +74,10 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button variant="secondary" asChild>
-                <Link href="/polling-demo">Try Demo</Link>
+                <Link href="/polling-demo">Polling Demo</Link>
+              </Button>
+              <Button variant="secondary" asChild>
+                <Link href="/sse-demo">SSE Demo</Link>
               </Button>
               <Button variant="outline" className="border-primary-foreground bg-transparent text-primary-foreground hover:bg-primary-foreground/10" asChild>
                 <Link href="/components">View Components</Link>
